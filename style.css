@@ -1,0 +1,626 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    background-color: #253038;
+    
+}
+
+/* Navbar */
+.navbar{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(56, 150, 201);
+}
+
+/* Links */
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(5, 20, 15);
+    padding: 10px 15px;
+    margin-left: 10px;
+    transition: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+
+}
+
+/* Logo */
+#logo{
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 29px;
+    font-weight: bold;
+    align-self: center;
+}
+.navbar a:hover{
+    color: rgb(190, 198, 202);
+    font-size: 22px;
+}
+
+/*hero section */
+
+.hero{
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.textarea{
+    color: azure;
+    width: 600px;
+    height: fit-content;
+    margin: 50px 30px;
+    font-size: larger;
+    
+}
+.textarea p{
+   margin-top: 30px;
+
+}
+.textarea a{
+    color:rgb(97, 170, 229);
+    
+}
+.imagesection{
+    margin-right: 200px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color:#b511a4;
+    background-image: url("IMG-20260228-WA0051.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in;
+}
+.imagesection:hover{
+    transform: scale(1.1);
+}
+.home-buttons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:5px;
+    margin-top: 20px;
+}
+.home-buttons button{
+    padding: 10px 10px;
+    color: rgb(2, 16, 28);
+    background-color:#079ad4;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fefbfe;
+}
+
+/*technology logo*/
+
+.index-skills{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #12465c;
+}
+.index-skills h2{
+    background-color: #12465c;
+    text-align: center;
+    margin-top: 10px;
+    color: #fefbfe;
+    font-family: 'Arial Narrow', Arial, sans-serifs;
+}
+.index-skills p{
+    text-align: center;
+}
+.Technologies{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #12465c;
+    padding:20px 10px;
+}
+.Technologies img{
+    height: 40px;
+    width: 40px;
+    transition: all 0.5s ease-in;
+}
+.Technologies img:hover{
+    transform: scale(2,2);
+}
+/* lets build together unit*/
+
+.contact-home{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    color: white;
+
+}
+.contact-home h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+}
+.contact-home h2:hover{
+
+     transform:translateX(8px);
+}
+
+/*progress section*/
+
+.progress{
+    margin-top: 40px;
+    padding:60px;
+    text-align:center;
+    margin-left: 0px;
+}
+.progress h2{
+    color: #fefbfe;
+}
+.progress-container{
+    margin-top: 30px;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.progress-box{
+    width:150px;
+    padding:20px;
+    background-color:#079ad4;
+    border:3px solid rgb(246, 242, 247);
+    border-radius:10px;
+    transition: all 0.5s ease-in;
+}
+.progress-box:hover{
+    background-color:#b4d9e8 ;
+    transform: translateY(-5px);
+}
+
+.progress-box h3{
+    font-size:28px;
+}
+
+/*footer*/
+
+.footer{
+    margin-top:30px;
+    background-color: #079ad4;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.social-icons{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a{
+    margin: 0 15px;
+}
+.social-icons img{
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #e772e7;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover{
+    transform: scale(1.2);
+
+}
+
+.copyright{
+    color: rgb(24, 22, 22);
+    font-size: 14px;
+}
+
+/* About me Section */
+.about{
+padding:60px 8%;
+color: aliceblue;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+background-color:#9c0c90;
+}
+
+.about-container{
+display:flex;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.about-image img{
+width:250px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-content{
+max-width:600px;
+}
+
+.about-content h2{
+font-size:28px;
+margin-bottom:15px;
+padding:5px 5px;
+}
+
+.about-content p{
+line-height:1.6;
+margin-bottom:20px;
+}
+
+.skills{
+    margin-top: 10px;
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-bottom:20px;
+}
+
+.skills li{
+list-style:none;
+background:#00adb5;
+color:white;
+padding:6px 12px;
+border-radius:6px;
+font-size:14px;
+}
+
+.journey{
+margin: 10px 10px 20px 20px;
+}
+
+.journey li{
+margin-bottom:5px;
+}
+
+/*project-card section */
+
+.projects-section{
+    padding:60px 8%;
+    color: aliceblue;
+}
+.project-heading{
+    text-align:center;
+    padding:15px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    background-color:#9c0c90;
+    color:#ffffff;
+    font-size:28px;
+
+}
+.projects-page{
+    margin:50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+/* same for all projects div in projec page 
+so no need to design for each project dic*/
+.projects-page div{
+    width:50%;
+    color: rgb(21, 20, 20);
+    border-radius: 15px;
+    background-color: #b7b7b8;
+    padding:10px 10px;
+    line-height:1.6;
+    transition: all;
+}
+.project-div:hover{
+transform:translateY(-5px);
+
+transition:0.3s;
+border:5px solid;
+border-color: #150f16;
+
+}
+.projects-page h1{
+    text-align: center;
+    padding:10px 10px;
+    margin-bottom: 15px;
+    border:3px solid;
+    border-color: #ebf5f8;
+    background-color: #531360;
+    color: #ebebeb;
+}
+.projects-page img{
+    width:50%;
+
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.suggestions-submit{
+     color: #e5e5e5; 
+     background-color: rgb(74, 76, 78);
+     font-size: small; 
+     border-radius: 15px;
+
+}
+.project-buttons{
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+    justify-content:space-between;
+}
+.project-buttons a{
+    padding:10px 10px;
+    border-radius: 5px;
+    background-color: #77c1f2;
+    color: rgb(31, 22, 22);
+    text-decoration: none;
+    transition: all;
+}
+.project-buttons a:hover{
+    color: aliceblue;
+    background-color:#303436;
+}
+/*contact me Section*/
+
+.contact-section{
+padding:60px 8%;
+color:white;
+}
+
+.contact-heading{
+text-align:center;
+font-size:40px;
+margin-bottom:10px;
+background-color: #9c0c90;
+}
+
+.contact-text{
+text-align:center;
+margin-top: 5px;
+margin-bottom:40px;
+color:#c8c4c4;
+font-weight:500;
+font-size: 15px;
+
+}
+
+.contact-container{
+display:flex;
+justify-content:center;
+gap:50px;
+flex-wrap:wrap;
+}
+
+.contact-info{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+width:300px;
+line-height:2;
+}
+
+.social-links{
+margin-top:15px;
+}
+
+.social-links a{
+display:inline-block;
+margin-right:10px;
+text-decoration:none;
+background:#38bdf8;
+color:black;
+padding:8px 12px;
+border-radius:5px;
+transition:0.3s;
+}
+
+.social-links a:hover{
+background:#0ea5e9;
+color:white;
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:15px;
+width:300px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+border-radius:5px;
+border:none;
+outline:none;
+background-color:#ebebeb
+}
+
+.contact-form textarea{
+height:100px;
+resize:none;
+}
+
+.contact-form button{
+padding:10px;
+border:none;
+background:#38bdf8;
+border-radius:5px;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+.contact-form button:hover{
+background:#0ea5e9;
+color:white;
+}
+
+/*skills and learning section*/
+
+.skills2-section{
+padding:60px 8%;
+color:white;
+}
+
+.skills2-heading{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+background-color:#9c0c90;
+}
+
+.skills2-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+/* Cards */
+
+.skills2-card{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+width:280px;
+box-shadow:0 6px 20px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.skills2-card:hover{
+transform:translateY(-7px);
+transform:scale(1.1);
+border:#ced1d2 2px solid;
+}
+.skills2-card h2{
+text-align:center;
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+/* Skills tags */
+
+.skills2-list{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+}
+
+.skills2-list span{
+background:#38bdf8;
+color:black;
+padding:6px 12px;
+border-radius:5px;
+font-size:14px;
+transition: all;
+}
+.skills2-list span:hover{
+    color: white;
+
+}
+/* Lists */
+
+.skills2-card ul{
+list-style:none;
+padding:0;
+}
+
+.skills2-card ul li{
+margin-bottom:10px;
+border-bottom:1px solid #31425a;
+padding-bottom:5px;
+}
+/* profile card*/
+.parent{
+    height: 400px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f8e8e;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #043240;
+    margin: 20px auto; 
+}
+
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    background-image: url("IMG-20260228-WA0051.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+}
+
+.card h2{
+    margin-bottom: 5px;
+    margin-left: 15px;
+    
+}
+
+.job{
+    color: rgb(249, 249, 249);
+    font-size: 14px;
+    margin-left:10px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.follow{
+    background-color:  #9bb7ef;
+    color: rgb(15, 12, 12);
+}
+button:hover{
+     font-size: 15px;
+     background-color: aliceblue;
+     
+}
+
+.message{
+    background-color: #9bb7ef;
+}
+
