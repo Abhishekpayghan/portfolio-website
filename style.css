@@ -14,13 +14,22 @@ body{
 .navbar{
     height: 80px;
     display: flex;
-    flex-warp:wrap;
+    flex-warp:nowrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(56, 150, 201);
 }
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
 
+  }
+  .imagesection {
+    visibility: hidden;
+  }
+}
 /* Links */
 .navbar a{
     text-decoration: none;
@@ -82,7 +91,7 @@ body{
     border-width: 10px;
     border-style: solid;
     border-color:#b511a4;
-    background-image: url("IMG-20260228-WA0051.jpg");
+    background-image: url("myprofilephoto.jpg");
     background-size: cover;
     background-position: center;
     transition: all 0.5s ease-in;
@@ -163,7 +172,7 @@ body{
 /*progress section*/
 
 .progress{
-    margin-top: 40px;
+    margin-top: 50px;
     padding:60px;
     text-align:center;
     margin-left: 0px;
