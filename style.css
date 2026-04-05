@@ -277,6 +277,39 @@ body{
     .contact-home h2 {
         font-size: 18px;
     }
+    /* Fix hero text + buttons */
+.textarea h1 {
+    font-size: 22px;
+}
+
+.textarea p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Make buttons stack nicely */
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-buttons a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-buttons button {
+    width: 90%;
+    max-width: 250px;
+}
+}
+@media (max-width: 580px) {
+    .progress-container {
+        grid-template-columns: 1fr; /* 1 per row */
+    }
 }
 
 /*footer*/
