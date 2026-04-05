@@ -222,7 +222,8 @@ body{
 
     .textarea {
         margin: 20px;
-        font-size: 16px;
+        font-size: 10px;
+        width:400px;
     }
 
     .imagesection {
@@ -305,11 +306,6 @@ body{
     width: 90%;
     max-width: 250px;
 }
-}
-@media (max-width: 580px) {
-    .progress-container {
-        grid-template-columns: 1fr; /* 1 per row */
-    }
 }
 
 /*footer*/
