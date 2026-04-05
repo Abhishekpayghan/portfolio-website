@@ -20,16 +20,6 @@ body{
     align-items: center;
     background-color: rgb(56, 150, 201);
 }
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-
-  }
-  .imagesection {
-    visibility: hidden;
-  }
-}
 /* Links */
 .navbar a{
     text-decoration: none;
@@ -198,6 +188,95 @@ body{
 
 .progress-box h3{
     font-size:28px;
+}
+/*mobile responsiveness*/
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .textarea {
+        margin: 20px;
+        font-size: 16px;
+    }
+
+    .imagesection {
+        margin: 20px auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Buttons */
+    .home-buttons button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    /* Progress Section */
+    .progress {
+        padding: 20px;
+    }
+
+    .progress-container {
+        gap: 15px;
+    }
+
+    .progress-box {
+        width: 120px;
+        padding: 15px;
+    }
+
+    .progress-box h3 {
+        font-size: 22px;
+    }
+
+    /* Technologies */
+    .Technologies {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .Technologies img {
+        height: 35px;
+        width: 35px;
+    }
+
+    /* Contact Section */
+    .contact-home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .contact-home h2 {
+        font-size: 18px;
+    }
 }
 
 /*footer*/
