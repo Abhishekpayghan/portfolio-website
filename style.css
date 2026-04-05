@@ -59,7 +59,7 @@ body{
 }
 .textarea{
     color: azure;
-    width: 600px;
+    width: 500px;
     height: fit-content;
     margin: 50px 30px;
     font-size: larger;
@@ -223,7 +223,7 @@ body{
     .textarea {
         margin: 20px;
         font-size: 10px;
-        width:400px;
+        width:auto;
     }
 
     .imagesection {
