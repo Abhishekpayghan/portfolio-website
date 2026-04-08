@@ -171,6 +171,7 @@ body{
     display:flex;
     justify-content:center;
     gap:30px;
+     flex-wrap:wrap;
 }
 
 .progress-box{
@@ -245,6 +246,8 @@ body{
 
     .progress-container {
         gap: 12px;
+        display:flex;
+         flex-wrap:wrap;
     }
 
     .progress-box {
