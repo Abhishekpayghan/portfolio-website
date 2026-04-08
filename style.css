@@ -244,16 +244,16 @@ body{
     }
 
     .progress-container {
-        gap: 15px;
+        gap: 12px;
     }
 
     .progress-box {
-        width: 120px;
+        width: 100px;
         padding: 15px;
     }
 
     .progress-box h3 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     /* Technologies */
