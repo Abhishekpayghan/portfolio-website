@@ -756,3 +756,16 @@ button:hover{
     background-color: #9bb7ef;
 }
 
+.dsa-btn{
+    background-color: #c0d2f5;
+    color: rgb(15, 12, 12);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #c9dee4;
+    font-size: 16px;
+    transition: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+    display: block;
+    margin: 25px auto;
+}
