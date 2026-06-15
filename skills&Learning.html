@@ -18,61 +18,125 @@
         </div>
     </header>
     <section class="skills2-section">
+        <h1 class="skills2-heading">Skills & Learnings</h1>
+        <!-- Button -->
+    <button class="dsa-btn" onclick="showDSA()">
+        View Coding Profiles
+    </button>
 
-<h1 class="skills2-heading">Skills & Learnings</h1>
+   <!-- Coding Profiles Section -->
+<div id="dsa-section">
 
-<div class="skills2-container">
+    <button class="close-btn" onclick="hideDSA()">
+        ✖ Close
+    </button>
 
+    <h2>My Coding Profiles</h2>
 
-<div class="skills2-card">
-<h2>Skills</h2>
+    <div class="profile-container">
 
-<div class="skills2-list">
-<span>C</span>
-<span>Java</span>
-<span>Python Basic</span>
-<span>HTML</span>
-<span>CSS</span>
-<span>JavaScript</span>
+        <!-- LeetCode -->
+        <div class="profile-card">
+            <h3>LeetCode</h3>
+
+            <img
+                src="https://leetcard.jacoblin.cool/AbhiP123?theme=dark&font=Karma"
+                alt="LeetCode Stats">
+
+            <a href="https://leetcode.com/u/AbhiP123/"
+               target="_blank">
+                Visit Profile
+            </a>
+        </div>
+
+        <!-- HackerRank -->
+        <div class="profile-card">
+            <h3>HackerRank</h3>
+            <img
+                src="hackerrank.jpg"
+                alt="HackerRank Stats">
+            <p>
+                Explore my HackerRank profile and certifications.
+            </p>
+
+            <a href="https://www.hackerrank.com/profile/abhipayghan76"
+               target="_blank">
+                Visit Profile
+            </a>
+        </div>
+
+        <!-- GitHub -->
+        <div class="profile-card">
+            <h3>GitHub</h3>
+
+            <img
+                src="https://github-readme-stats.vercel.app/api?username=Abhishekpayghan&show_icons=true&theme=dark"
+                alt="GitHub Stats">
+
+            <a href="https://github.com/Abhishekpayghan"
+               target="_blank">
+                Visit Profile
+            </a>
+        </div>
+
+    </div>
+
 </div>
 
-</div>
+   
+<!-- Skills & Learning Section -->
 
 
-<div class="skills2-card">
-<h2>Currently Learning</h2>
+    
 
-<ul>
-<li>Data Structures & Algorithms</li>
-<li>Advanced Java</li>
-<li>SpringBoot</li>
-<li>React</li>
-<li>SQL</li>
-</ul>
+    <div class="skills2-container">
 
-</div>
+        <!-- Skills Card -->
+        <div class="skills2-card">
+            <h2>Skills</h2>
 
-<div class="skills2-card">
-<h2>Achievements & Certifications</h2>
+            <div class="skills2-list">
+                <span>C</span>
+                <span>Java</span>
+                <span>Python Basic</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
 
-<ul>
-<li>Solved 135+ DSA Problems</li>
-<li>100 Days,50 Days badge on Leetcode</li>
-<li>NPTEL Elite Gold Certificate-90%(java Programming)</li>
-<li>Java(Basic & Core) Programming Certificate</li>
-<li>NPTEL Elite Certificate-69%(C programming) </li>
-<li>Built Web and java Projects</li>
-</ul>
+        <!-- Learning Card -->
+        <div class="skills2-card">
+            <h2>Currently Learning</h2>
 
-</div>
+            <ul>
+                <li>Data Structures & Algorithms</li>
+                <li>Advanced Java</li>
+                <li>Spring Boot</li>
+                <li>React</li>
+                <li>SQL</li>
+            </ul>
+        </div>
 
-</div>
-<button class="dsa-btn" onclick="alert('currently in working - view leetcode profile from footer')">View Coding Profiles(DSA)</button>
+        <!-- Achievement Card -->
+        <div class="skills2-card">
+            <h2>Achievements & Certifications</h2>
+
+            <ul>
+                <li>Solved 135+ DSA Problems</li>
+                <li>100 Days & 50 Days Badge on LeetCode</li>
+                <li>NPTEL Elite Gold Certificate - 90% (Java Programming)</li>
+                <li>Java (Basic & Core) Programming Certificate</li>
+                <li>NPTEL Elite Certificate - 69% (C Programming)</li>
+                <li>Built Web and Java Projects</li>
+            </ul>
+        </div>
+
+    </div>
+
+    
+
 </section>
-
-
-
-
 
 
 
@@ -97,6 +161,24 @@
     </p>
 
 </footer>
+<script>
+function showDSA() {
+    
+    const dsaSection = document.getElementById("dsa-section");
+
+    dsaSection.style.display = "block";
+
+    window.scrollTo({
+        top: dsaSection.offsetTop,
+        behavior: "smooth"
+    });
+}
+
+function hideDSA() {
+    const dsaSection = document.getElementById("dsa-section");
+    dsaSection.style.display = "none";
+}
+</script>
 </body>
 
 </html>
