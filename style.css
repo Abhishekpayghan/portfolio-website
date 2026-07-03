@@ -460,19 +460,22 @@ margin-bottom:5px;
 so no need to design for each project dic*/
 .projects-page div{
     width:50%;
-    color: rgb(21, 20, 20);
-    border-radius: 15px;
-    background-color: #b7b7b8;
-    padding:10px 10px;
+    color: rgb(213, 212, 212);
+    border:solid 5px rgb(244, 240, 240);
+    background-color:#1e1e1e;
+    padding:10px 10px;  
     line-height:1.6;
     transition: all;
+    
+}
+.projects-page div:hover{
+    background-color: #2c2c2c;
+    transform: scale(1.02);
+    border-color: #d8d4d8;
 }
 .project-div:hover{
-transform:translateY(-5px);
 
-transition:0.3s;
-border:5px solid;
-border-color: #150f16;
+border-color: #f1eef1;
 
 }
 .projects-page h1{
