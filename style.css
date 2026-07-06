@@ -43,7 +43,7 @@ body{
     align-self: center;
 }
 .navbar a:hover{
-    color: rgb(190, 198, 202);
+    color: rgb(182, 199, 208);
     font-size: 22px;
 }
 
@@ -457,7 +457,7 @@ margin-bottom:5px;
     gap: 20px;
 }
 /* same for all projects div in projec page 
-so no need to design for each project dic*/
+so no need to design for each project div*/
 .projects-page div{
     width:50%;
     color: rgb(213, 212, 212);
@@ -466,6 +466,9 @@ so no need to design for each project dic*/
     padding:10px 10px;  
     line-height:1.6;
     transition: all;
+    display:flex;
+    flex-direction: column;
+    
     
 }
 .projects-page div:hover{
@@ -475,7 +478,7 @@ so no need to design for each project dic*/
 }
 .project-div:hover{
 
-border-color: #f1eef1;
+border-color: #dcd7dc;
 
 }
 .projects-page h1{
@@ -489,26 +492,33 @@ border-color: #f1eef1;
 }
 .projects-page img{
     width:50%;
-
+    align-self: center;
     border-radius:15px;
     box-shadow:0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .suggestions-submit{
      color: #e5e5e5; 
-     background-color: rgb(74, 76, 78);
+     background-color: rgb(78, 81, 85);
      font-size: small; 
+     margin-top: 15px;
      border-radius: 15px;
 
 }
 .project-buttons{
-    display: flex;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     font-weight: bold;
     margin-top: 20px;
-    justify-content:space-between;
+   
+
 }
 .project-buttons a{
     padding:10px 10px;
+    margin:5px 0;
+    
     border-radius: 5px;
     background-color: #77c1f2;
     color: rgb(31, 22, 22);
@@ -517,7 +527,7 @@ border-color: #f1eef1;
 }
 .project-buttons a:hover{
     color: aliceblue;
-    background-color:#303436;
+    background-color:#172c36;
 }
 /*contact me Section*/
 
@@ -876,4 +886,7 @@ button:hover{
     .profile-card{
         width:90%;
     }
+}
+.suggestions-input{
+    margin-bottom: 12px;
 }
